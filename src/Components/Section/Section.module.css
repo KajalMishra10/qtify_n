@@ -1,0 +1,27 @@
+h1 {
+  color: white;
+}
+.Section_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: white;
+  border-top: 2px solid #ccc;
+  margin: 20px;
+}
+.toggleText {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+.cardWrapper {
+  margin-top: 18px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.filterWrapper {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
